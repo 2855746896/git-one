@@ -1,0 +1,35 @@
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Editors / IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS / tooling scratch
+.cache/
+tmp/
+temp/
+*.log
+
+# Secrets — never commit these
+.env
+.env.*
+*.pem
+*.key
+id_rsa*
+id_ed25519*
+!.gitignore
+
+# DSH sandbox ACL repair artifacts (machine-specific, not project content)
+.dsh-acl-recovery/
+
+# Third-party GitHub acceleration tool downloaded onto this machine.
+# Large prebuilt binaries (zip + exe) — a local tool, not project source.
+FastGithub/
